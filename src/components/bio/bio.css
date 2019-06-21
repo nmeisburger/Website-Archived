@@ -1,0 +1,49 @@
+.bio {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #87ADC6;
+}
+
+.bio-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: #011638;
+    font-size: 1.3em;
+}
+
+.mapping {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-block {
+    font-size: 1.3em;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shell1 {
+    /* width: 210px;
+    height: 280px; */
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 1%;
+}
+
+
+.shell2 {
+    transition: 0.3s ease-in-out;
+}
+
+.shell2:hover {
+    transform: scale(1.1);
+}

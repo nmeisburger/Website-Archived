@@ -1,0 +1,77 @@
+.firstname-text-shell, .lastname-text-shell {
+    overflow: hidden;
+    width: 0;
+    transition: 0.7s ease-in-out;
+    height: 1.3em;
+}
+
+.firstname, .lastname {
+    margin-left: 27%;
+    font-size: 6.8em;
+    position: relative;
+    color: #87ADC6;
+    width: 55%;
+    letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 1050px) {
+    .firstname, .lastname {
+        font-size: 5em;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .firstname, .lastname {
+        font-size: 4em;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .firstname, .lastname {
+        font-size: 3em;
+        margin-left: 15%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .firstname, .lastname {
+        font-size: 2.7em;
+        margin-left: 15%;
+    }
+}
+
+.firstname:before, .firstname:after, .lastname:before, .lastname:after {
+    content: '';
+    position: absolute;
+    background-color: #011638;
+    transition: 0.7s ease-in-out;
+}
+
+.firstname:before, .lastname:before {
+    width: 1.5%;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+.firstname:after {
+    height: 6.3%;
+    width: 0;
+    left: -15%;
+    bottom: 0;
+}
+
+.lastname:after {
+    height: 6.3%;
+    width: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.logo-text {
+    padding: 2% 4%;
+    margin: 0;
+}

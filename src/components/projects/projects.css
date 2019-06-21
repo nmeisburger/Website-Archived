@@ -1,0 +1,56 @@
+.projects {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.page-title {
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.project-dot-active, .project-dot-inactive {
+    border: 2px solid;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 16px;
+}
+
+.project-dot-active {
+    border-color: #011638;
+    color: #011638;
+}
+
+.project-dot-inactive {
+    border-color: #294D7C;
+    color: #011638;
+    transition: 0.2s ease-in-out;
+}
+
+.project-dot-inactive:hover {
+    border-color: #011638;
+}
+
+.project-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+.project-title {
+    text-align: center;
+    font-weight: normal;
+    color: #011638;
+}
+
+.project-description {
+    color: #87ADC6;
+    font-size: 1.2em;
+}

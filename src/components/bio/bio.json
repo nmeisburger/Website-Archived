@@ -1,0 +1,20 @@
+{
+    "bioContent": [
+        {
+            "key": "b0",
+            "line": "Born and raised in the Pacific Northwest, I am now a sophmore at Rice University studying Computer Science and Mathematics."
+        },
+        {
+            "key": "b1",
+            "line": "I enjoy computer science because it gives me the opportunity to solve the problems I witness using a combination of creative and strategic problem solving."        
+        },
+        {
+            "key": "b2",
+            "line": "I am passionate about computer science and mathematics and I am always looking for new opportunities to explore these subjects and gain new experience with them."
+        },
+        {
+            "key": "b3",
+            "line": "I know Python, Java, and C/C++ as well as JavaScript, HTML, CSS, and React, and have completed projects using all of these languages."
+        }
+    ]
+}

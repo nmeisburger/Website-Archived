@@ -1,0 +1,51 @@
+.resume-link{
+    background: #011638;
+    color: #87ADC6;
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+
+.resume-link-text {
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+}
+
+@media screen and (max-width: 415px){
+    .resume-link-text {
+        font-size: 0.8em;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #87ADC6;
+}
+
+.resume-link:hover{
+    background: #87ADC6;
+    color: #011638;
+  }
+
+.resume-link:before, .resume-link:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 4px;
+    width: 0;
+    background: #011638;
+    transition: 0.4s ease-in-out;
+  }
+
+.resume-link:after{
+    left: 0;
+    bottom: 0;
+  }
+
+.resume-link:hover:before, .resume-link:hover:after{
+    width: 100%;
+    transition: 0.8s ease all;
+  }

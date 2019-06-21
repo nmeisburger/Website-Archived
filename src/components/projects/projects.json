@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name": "stock prediction with deep learning",
+            "bullets": [
+                "For the 2019 Rice Datathon, I designed and implemented a back propagation neural network, receiving Best Underclassmen Project.",
+                "I did this implementation from scratch and used an API only to pull live updating market data to use to train and test the model.",
+                "I applied this deep learning algorithm to real world stock data to create model used to generate predictions for future trends and stock changes."
+            ]
+        },
+        {
+            "name": "mcmurtry college website",
+            "bullets": [
+                "As part of my position as head of the website committee for my residential college, McMurtry, I designed and coded a new website fully from scratch for the college.",
+                "The final website is deployed, and can be viewed at mcmurtry.rice.edu.",
+                "The website is created using JavaScript and React, and the code can be found at https://github.com/mcmurtrycollege/McMurtry-Website-Active."
+            ]
+        },
+        {
+            "name": "rice datathon website",
+            "bullets": [
+                "I have also designed and coded the website for the Rice Datathon, which is used to manage logistical elements and coordinate/spread information about the event",
+                "The final website can be viewed at datathon.rice.edu.",
+                "This website is also created using JavaScript and React, and the source code is located at https://github.com/RiceDatathon/Rice-Datathon-Website."
+            ]
+        }
+    ]
+}
